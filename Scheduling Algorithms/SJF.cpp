@@ -102,6 +102,11 @@ int main ()
         }
     }
 
+    cout<<"\nCompletion Time : \n" ;
+    for(i=0; i<process_no; i++)
+        cout<<" P["<<Process[i]<<"] = "<<Completion_Time[i]<<endl ;
+        cout<<endl ;
+
     cout<<"Process No\t\tArrival Time\t\t  Brust Time\t\tTurnAround Time\t\tWaiting Time \n" ;
     for(i=0; i<process_no; i++)
     {
@@ -121,3 +126,12 @@ int main ()
 
     return 0 ;
 }
+
+
+/*
+Sample :
+How many processes? : 4
+Enter Process Sequence : 1 2 3 4
+Enter Arrival Time : 1 2 1 4
+Enter Brust Time : 3 4 2 4
+*/
