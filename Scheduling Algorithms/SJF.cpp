@@ -51,7 +51,8 @@ int main ()
     cout<<"How many processes? : " ;
     cin>>process_no ;
 
-    int Process[process_no+2], Arrival_time[process_no+2], Brust_Time[process_no+2], Completion_Time[process_no+2], TurnAround_Time[process_no+2], Waiting_Time[process_no+2] ;
+    int Process[process_no+2], Arrival_time[process_no+2], Brust_Time[process_no+2] ;
+    int Completion_Time[process_no+2], TurnAround_Time[process_no+2], Waiting_Time[process_no+2] ;
 
     cout<<"Enter Process Sequence : " ;
     for(i=0; i<process_no; i++)
