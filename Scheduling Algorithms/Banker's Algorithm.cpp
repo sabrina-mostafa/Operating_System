@@ -122,7 +122,7 @@ int main ()
         if(safe_Seq.size()==process_no)
             break ;
     }
-    if(unsafe_cnt<=process_no || (safe_Seq.size()==process_no) )
+    if(unsafe_cnt<=process_no && (safe_Seq.size()==process_no) )
     {
         int c=0 ;
         cout<<"\nThe Safe Sequence is :\n" ;
