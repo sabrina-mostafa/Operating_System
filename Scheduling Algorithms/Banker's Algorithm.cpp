@@ -119,7 +119,7 @@ int main ()
                 }
             }
         }
-        if(safe_Seq.size()==process_no)
+        if(safe_Seq.size()==process_no || unsafe_cnt>process_no)
             break ;
     }
     if(unsafe_cnt<=process_no && (safe_Seq.size()==process_no) )
